@@ -1,4 +1,4 @@
-# Tələbələr üçün Tapşırıqlar
+# Javascript Task(variables,Data types,Operators)
 
 ## Task-01
 Konsola mesaj verin:
