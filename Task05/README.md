@@ -83,3 +83,20 @@ metodlarını əhatə edən client obyekti yaradın.
     refill metodu parametr kimi qəbul edilən məbləğ qədər balansı artırır.
     client.refill(1000)
 ```
+
+## Task-05
+
+```
+Kalkulyator obyekti yaradın.
+Əsas riyazi hesablamaları yerinə yetirən və nəticəni
+yaddaşda saxlaya bilən kalkulyator obyekti yaradın.
+	- Obyekt yaradın və toplama, çıxma, vurma,
+    bölmə üçün metodlar əlavə edin.
+	Metodlar parametr kimi 2 ədəd götürür və bu ədədlər
+     üzərində müvafiq əməliyyatın nəticəsini qaytarır.
+	Yaddaşla işləmək imkanı əlavə edin.
+	- Obyektə dəyəri saxlamaq üçün özəllik əlavə edin.
+    Onunla işləmək üçün metodlar yaradın:
+	dəyərin yaddaşda saxlanması, yaddaşın təmizlənməsi,
+    yaddaşdan dəyərin oxunması.
+```
