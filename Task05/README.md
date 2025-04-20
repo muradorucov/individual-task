@@ -1,80 +1,85 @@
 # Javascript Object Tasks
 
-## Task-01: Create a function that takes an object and returns an array of its keys.
-```javascript
-function getObjectKeys(obj) {
-    return Object.keys(obj);
-}
+## Task-01
+
 ```
-## Task-02: Create a function that takes an object and returns an array of its values.
-```javascript
-function getObjectValues(obj) {
-    return Object.values(obj);
-}
+Adınız, cinsiniz və doğum tarixiniz olan user obyekti
+yaradın (name, gender, birthday).
+Konsola doğum tarixini çıxarın.
 ```
-## Task-03: Create a function that takes an object and returns an array of its entries (key-value pairs).
-```javascript
-function getObjectEntries(obj) {
-    return Object.entries(obj);
-}
+
+## Task-02
+
 ```
-## Task-04: Create a function that takes an object and a key, and returns the value associated with that key.
-```javascript
-function getValueByKey(obj, key) {
-    return obj[key];
-}
+Bu obyektə yaş (age) əlavə edin və doğum tarixini silin.
+Alınmış obyekti konsola çıxarın.
 ```
-## Task-05: Create a function that takes an object and a key, and returns true if the key exists in the object, false otherwise.
-```javascript
-function hasKey(obj, key) {
-    return obj.hasOwnProperty(key);
-}
+
+## Task-03
+
 ```
-## Task-06: Create a function that takes an object and a key, and deletes the key-value pair from the object.
-```javascript
-function deleteKey(obj, key) {
-    delete obj[key];
-}
+Obyektə metodlar əlavə edin.
+    setAge — istifadəçi yaşını dəyişdirən metoddur.
+    getYearsBeforeRetirement — pensiyaya qədər istifadəçinin
+qalan illərinin sayını qaytaran metoddur.
+Bu metodları çağırın.
 ```
-## Task-07: Create a function that takes an object and a key, and adds a new key-value pair to the object.
-```javascript
-function addKeyValuePair(obj, key, value) {
-    obj[key] = value;
-}
+
+## Task-04
+
+Müştəri Kredit kartı ilə işləmək üçün obyekt yaradın.
+Müştərinin hesabı haqqında əsas məlumatları və onunla işləmə
+metodlarını əhatə edən client obyekti yaradın.
+
+### =>client obyekti yaradın.
+
 ```
-## Task-08: Create a function that takes an object and returns a new object with only the keys that exist in the original object.
-```javascript
-function filterObjectKeys(obj, keys) {
-    return Object.fromEntries(Object.entries(obj).filter(([key]) => keys.includes(key)));
-}
+	Kredit kartı müştərisi üçün aşağıdakı xüsusiyyətlərə malik obyekt yaradın:
+	- Tam adı müştərinin (fullName).
+	- Kredit limiti (creditLimit).
+	- Cari balans (balans).
+	- Minimum ödənişin faizi (precentOfMinPayment).
 ```
-## Task-09: Create a function that takes an object and returns a new object with only the values that are strings.
-```javascript
-function filterObjectValues(obj) {
-    return Object.fromEntries(Object.entries(obj).filter(([key, value]) => typeof value === 'string'));
-}
+
+### =>Cari balans əldə etmək üçün getBalance metodu əlavə edin.
+
 ```
-## Task-10: Create a function that takes an object and returns a new object with only the values that are numbers.
-```javascript
-function filterObjectNumbers(obj) {
-    return Object.fromEntries(Object.entries(obj).filter(([key, value]) => typeof value === 'number'));
-}
+    getBalance metodu, balans mənfi olarsa, müştərinin balansı və ya onun borcu haqqında bir mesaj qaytarır.
+    Metodun çağırılma nümunəsi:
+    console.log(client.getBalance()).
+    Mesaj nümunələri:
+    «Balansınız 3000»,
+    «Borcunuz 2000».
+
 ```
-## Task-11: Create a function that takes an object and returns a new object with only the values that are arrays.
-```javascript
-function filterObjectArrays(obj) {
-    return Object.fromEntries(Object.entries(obj).filter(([key, value]) => Array.isArray(value)));
-}
+
+### =>Minimum ödəniş məbləği üçün getMinPaymant metodunu əlavə edin.
+
 ```
-## Task-12: Create a function that takes an object and returns a new object with only the values that are objects.
-```javascript
-function filterObjectObjects(obj) {
-    return Object.fromEntries(Object.entries(obj).filter(([key, value]) => typeof value === 'object' && !Array.isArray(value)));
-}
+    getMinPaymant metodu borc məbləği və minimum ödəniş
+    faizinə əsasən formalaşan minimum
+    ödəniş məbləği haqqında mesaj qaytarır.
+    Əgər borc yoxdursa, metod müvafiq mesajı qaytarır.
+    Metodun çağırılma nümunəsi:
+    console.log(client.getMinPaymant()).
+    Mesaj nümunələri:
+    «Minimum ödənişiniz 240»,
+    «Sizin borcunuz yoxdur».
 ```
-## Task-13: Create a function that takes an object and returns a new object with only the values that are booleans.
-```javascript   
-function filterObjectBooleans(obj) {
-    return Object.fromEntries(Object.entries(obj).filter(([key, value]) => typeof value === 'boolean'));
-}
+
+### =>Hesabdan pul silmək üçün withdraw metodu əlavə edin.
+
+```
+    withdraw metodu cari balansı parametr kimi ötürülən
+    pul məbləği qədər azaldır.
+    Mövcud vəsait kifayət deyilsə (cari balans və kredit
+    limitinin cəmi), metod konsola müvafiq mesajı çıxarır.
+    client.widthdraw(900)
+```
+
+### =>Hesaba pul əlavə etmək üçün refill metodu əlavə edin.
+
+```
+    refill metodu parametr kimi qəbul edilən məbləğ qədər balansı artırır.
+    client.refill(1000)
 ```
