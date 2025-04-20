@@ -31,7 +31,7 @@ Müştəri Kredit kartı ilə işləmək üçün obyekt yaradın.
 Müştərinin hesabı haqqında əsas məlumatları və onunla işləmə
 metodlarını əhatə edən client obyekti yaradın.
 
-### =>client obyekti yaradın.
+#### =>client obyekti yaradın.
 
 ```
 	Kredit kartı müştərisi üçün aşağıdakı xüsusiyyətlərə malik obyekt yaradın:
@@ -41,7 +41,7 @@ metodlarını əhatə edən client obyekti yaradın.
 	- Minimum ödənişin faizi (precentOfMinPayment).
 ```
 
-### =>Cari balans əldə etmək üçün getBalance metodu əlavə edin.
+#### =>Cari balans əldə etmək üçün getBalance metodu əlavə edin.
 
 ```
     getBalance metodu, balans mənfi olarsa, müştərinin balansı və ya onun borcu haqqında bir mesaj qaytarır.
@@ -53,7 +53,7 @@ metodlarını əhatə edən client obyekti yaradın.
 
 ```
 
-### =>Minimum ödəniş məbləği üçün getMinPaymant metodunu əlavə edin.
+#### =>Minimum ödəniş məbləği üçün getMinPaymant metodunu əlavə edin.
 
 ```
     getMinPaymant metodu borc məbləği və minimum ödəniş
@@ -67,7 +67,7 @@ metodlarını əhatə edən client obyekti yaradın.
     «Sizin borcunuz yoxdur».
 ```
 
-### =>Hesabdan pul silmək üçün withdraw metodu əlavə edin.
+#### =>Hesabdan pul silmək üçün withdraw metodu əlavə edin.
 
 ```
     withdraw metodu cari balansı parametr kimi ötürülən
@@ -77,7 +77,7 @@ metodlarını əhatə edən client obyekti yaradın.
     client.widthdraw(900)
 ```
 
-### =>Hesaba pul əlavə etmək üçün refill metodu əlavə edin.
+#### =>Hesaba pul əlavə etmək üçün refill metodu əlavə edin.
 
 ```
     refill metodu parametr kimi qəbul edilən məbləğ qədər balansı artırır.
