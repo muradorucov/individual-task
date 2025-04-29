@@ -9,3 +9,5 @@
 ## [Js Task part-04 (Array)](./Task04/)
 
 ## [Js Task part-05 (Object)](./Task05/)
+
+## [Js Task part-06 (Dom)](./Task06/)
