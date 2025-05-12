@@ -13,3 +13,4 @@
 ## [Js Task part-06 (Dom)](./Task06/)
 
 ## [Js Task part-07 (Dom Table task)](./Task07/)
+## [Js Task part-08 (Dom Pizza App )](./Task08/)
