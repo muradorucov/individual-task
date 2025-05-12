@@ -2,8 +2,8 @@
 
 ## Şəkildə görünən table hazırlanmalıdır.
 
-Html və [CSS (şəkildəki css)]("./style.css") ixtiyaridir.(Lakin "nice design" olmalıdır).
-Table-da görünən məlumatlar [data]("./data.js") faylından oxunub table-a yığılmalıdır.
+Html və [CSS (şəkildəki css)](/style.css) ixtiyaridir.(Lakin "nice design" olmalıdır).
+Table-da görünən məlumatlar [data](/data.js) faylından oxunub table-a yığılmalıdır.
 
 ### Önəmli məqamlar :
 
