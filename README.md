@@ -11,3 +11,5 @@
 ## [Js Task part-05 (Object)](./Task05/)
 
 ## [Js Task part-06 (Dom)](./Task06/)
+
+## [Js Task part-07 (Dom Table task)](./Task07/)
