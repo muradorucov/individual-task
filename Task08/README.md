@@ -8,5 +8,6 @@ Html və CSS ixtiyaridir.(Lakin "nice design" olmalıdır).
 ```
 
 <img src="./pizza.png" alt="Pizza Image" width="70%"/>
+
 [Gif link](https://www.webmobilefirst.com/en/screencasts/5_c3-yavyc_qur/)
 
