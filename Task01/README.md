@@ -209,3 +209,34 @@ Ayın adını mətnlə konsola yazdıran bir program yazın.
 Tarixin təsvirini «19 Dekabr 2009-cu il» formatında çıxarın.
 Daxil edilmiş dəyərə validator əlavə edin.
 İstifadəçi səhv formatda dəyər daxil edərsə, «Yanlış dəyər daxil edilib» bildirişi göstərin.
+
+
+## Task-31
+```
+let p = 8;
+let q = p-- - --p + p++ + ++p;
+console.log(p, q);
+```
+
+
+## Task-32
+```
+let a = 6, b = 4, c = 2;
+
+let x = ++a - b-- + c++ - --b + a++;
+let y = a-- + --c - ++b + x++ - --a;
+
+console.log(a, b, c, x, y);
+```
+
+
+## Task-33
+```
+let a = 7, b = 3, c = 5;
+
+let x = a-- - ++b + c++ - --a + b++ - --c + a++ - b-- + c++;
+let y = --x + a++ - --b + c-- - x++ + ++a - b++ + --c - x--;
+let z = a-- + ++b - --c + x++ - --y + b-- - ++x + c++ - --a + y++;
+
+console.log(a, b, c, x, y, z);
+```
