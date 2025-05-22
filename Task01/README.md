@@ -50,8 +50,9 @@ Belə proqram yazın:
 
 ## Task-08
 
-Konsola bu növ mesaj çıxarın:
-“Sizin adınız `[firstName]` `[lastName]`. Tanışlığımıza çox şadam!”
+firstName dəyişənində istifadəçinin adı, 
+lastName — dəyişənində isə soyadı saxlanır.
+Konsola bu növ mesaj çıxarın “Sizin adınız [firstName] [lastName]. Tanışlığımıza çox şadam!”
 
 ## Task-09
 
@@ -66,19 +67,29 @@ Probel hərf olaraq sayılmır.
 
 ## Task-11
 
-İstifadəçinin ad soyadının baş hərflərini konsola çıxaran proqram yazın.
+İstifadəçinin adını və soyadını boşluqlarla ayıraraq fullName dəyişəninə yazın. 
+fullName dəyişəninin dəyərindən istifadə edərək istifadəçinin baş hərflərini 
+konsola çıxaran proqram yazın.
+
 
 ## Task-12
 
-İstifadəçidən tam adını daxil etməyini istəyin və soyadı ilə adının yerini dəyişin.
+İstifadəçidən tam adı «AD SOYAD» formatında daxil etməyi xahiş edin. 
+Tam adını konsola fərqli qaydada yəni «SOYAD AD» formatında çıxarın,
+
 
 ## Task-13
 
-Konsola "Salam, `[ad]`!" formatında salamlama mesajı çıxarın.
+İstifadəçidən adını daxil etməsini istəyin.
+Konsola "Salam, [ad]!" formatında salamlama mesajı çıxarın.
+
 
 ## Task-14
 
-İki ədədin toplama, çıxma, vurma və bölməsinin nəticələrini konsola alt-alta 4 sətir olaraq çıxarın.
+İstifadəçidən iki ayrı prompt əmri ilə iki ədəd daxil etməsini istəyin.
+Bu ədədlərin toplama, çıxma, vurma və bölməsinin nəticələrin konsola 
+alt-alta 4 sətir olaraq çıxarın.
+
 
 ## Task-15
 
