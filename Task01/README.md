@@ -265,25 +265,25 @@ Verilmiş ədədin müsbət, mənfi və ya sıfır olduğunu müəyyən edin.
 
 ## Task-35
 
-Üç Ədəddən Ən Böyüyünü Tap
+**Üç Ədəddən Ən Böyüyünü Tap** <br>
 let a = 5, b = 8, c = 3;
 
 
 ## Task-36
 
-Cüt və ya Tək Ədəd
+**Cüt və ya Tək Ədəd** <br>
 Verilmiş ədədin cüt və ya tək olduğunu ternary operatoru ilə müəyyən edin.
 
 
 ## Task-37
 
-**Kvadratın Sahəsi və Perimetri**
+**Kvadratın Sahəsi və Perimetri** <br>
 Bir tərəfi `a` olan kvadrat üçün sahəni və perimetri tapın.
 
 
 ## Task-38
 
-**Qiymətə Görə Nəticə (switch-case)**
+**Qiymətə Görə Nəticə (switch-case)** <br>
 Qiymət verilir (0-100). Aşağıdakı qaydaya əsasən nəticəni `switch-case` ilə yazın:
 
 - 90-100: Əla
@@ -296,11 +296,11 @@ Qiymət verilir (0-100). Aşağıdakı qaydaya əsasən nəticəni `switch-case`
 
 ## Task-39
 
-**0-50 Arasında Təsadüfi Ədəd**
+**0-50 Arasında Təsadüfi Ədəd** <br>
 0 ilə 100 arasında `Math.random()` ilə təsadüfi ədəd yaradın və onun 0-50 arasında olub olmadığını yoxlayın.
 
 
 ## Task-40
-**Sadə Kalkulyator (switch-case)**
+**Sadə Kalkulyator (switch-case)** <br>
 İki ədəd və operator (`+`, `-`, `*`, `/`) verilib. `switch-case` ilə əməliyyatı icra edin.
 let a = 5, b = 3, op = "*";
