@@ -1,4 +1,8 @@
-# Tapşırıqlar
+# Bu tapşırıqlar **JavaScript** dilinin aşağıdakı mövzularını öyrənmiş tələbələr üçün hazırlanmışdır:
+
+**Mövzular:**  
+`Data Types`, `Variables`, `Operators`, `if-else`, `switch-case`, `ternary`, `Math`
+
 
 ## Task-01
 
@@ -251,3 +255,52 @@ let z = a-- + ++b - --c + x++ - --y + b-- - ++x + c++ - --a + y++;
 
 console.log(a, b, c, x, y, z);
 ```
+
+
+## Task-34 
+
+Ədədin Müsbət, Mənfi və ya Sıfır Olduğunu Yoxla
+Verilmiş ədədin müsbət, mənfi və ya sıfır olduğunu müəyyən edin.
+
+
+## Task-35
+
+Üç Ədəddən Ən Böyüyünü Tap
+let a = 5, b = 8, c = 3;
+
+
+## Task-36
+
+Cüt və ya Tək Ədəd
+Verilmiş ədədin cüt və ya tək olduğunu ternary operatoru ilə müəyyən edin.
+
+
+## Task-37
+
+**Kvadratın Sahəsi və Perimetri**
+Bir tərəfi `a` olan kvadrat üçün sahəni və perimetri tapın.
+
+
+## Task-38
+
+**Qiymətə Görə Nəticə (switch-case)**
+Qiymət verilir (0-100). Aşağıdakı qaydaya əsasən nəticəni `switch-case` ilə yazın:
+
+- 90-100: Əla
+- 75-89: Yaxşı
+- 60-74: Orta
+- 0-59: Zəif
+
+> Qeyd: `switch(true)` üsulu ilə istifadə edin.
+
+
+## Task-39
+
+**0-50 Arasında Təsadüfi Ədəd**
+0 ilə 100 arasında `Math.random()` ilə təsadüfi ədəd yaradın və onun 0-50 arasında olub olmadığını yoxlayın.
+
+
+## Task-40
+**Sadə Kalkulyator (switch-case)**
+İki ədəd və operator (`+`, `-`, `*`, `/`) verilib. `switch-case` ilə əməliyyatı icra edin.
+let a = 5, b = 3, op = "*";
