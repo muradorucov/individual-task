@@ -124,35 +124,29 @@ Daxil edilən iki tarix arasındakı günlərin sayını qaytaran `daysBetweenDa
 Məsələn, `daysBetweenDates("2025-04-01", "2025-04-10")` çağırıldıqda `9` qaytarmalıdır.
 ```
 
+
 ## Task-17
-
-```
-Verilmiş stringdə ən çox təkrarlanan elementi qaytaran `mostFrequent()` funksiyasını yazın.
-Məsələn, `mostFrequent("1, 3, 2, 3, 4, 3, 5, 3")` çağırıldıqda `3` qaytarmalıdır.
-```
-
-## Task-18
 
 ```
 Verilmiş stringi tərsinə çevirən `reverseArray()` funksiyasını yazın.
 Məsələn, `reverseArray("1, 2, 3, 4, 5")` çağırıldıqda `"5, 4, 3, 2, 1"` qaytarmalıdır.
 ```
 
-## Task-19
+## Task-18
 
 ```
 İstifadəçi adı və yaş parametr kimi qəbul edən və `"[Ad] is [Yaş] years old"` mesajını qaytaran `userInfo()` funksiyasını yazın.
 Məsələn, `userInfo("Murad", 25)` çağırıldıqda `"Murad is 25 years old"` qaytarmalıdır.
 ```
 
-## Task-20
+## Task-19
 
 ```
 Daxil edilən mətnin hər bir simvolunun ASCII dəyərini qaytaran `charCodes()` funksiyasını yazın.
 Məsələn, `charCodes("ABC")` çağırıldıqda '65, 66, 67' qaytarmalıdır.
 ```
 
-## Task-21
+## Task-20
 
 ```
 Verilmiş ədədin faktorialını qaytaran bir `factorial()` funksiyası yazın.
