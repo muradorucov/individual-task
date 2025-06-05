@@ -100,3 +100,11 @@ yaddaşda saxlaya bilən kalkulyator obyekti yaradın.
 	dəyərin yaddaşda saxlanması, yaddaşın təmizlənməsi,
     yaddaşdan dəyərin oxunması.
 ```
+
+
+## Task-06
+
+```
+Verilmiş stringdə ən çox təkrarlanan elementi qaytaran `mostFrequent()` funksiyasını yazın.
+Məsələn, `mostFrequent("1, 3, 2, 3, 4, 3, 5, 3")` çağırıldıqda `3` qaytarmalıdır.
+```
