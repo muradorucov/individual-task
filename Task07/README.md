@@ -7,7 +7,8 @@ Table-da görünən məlumatlar [data](./data.js) faylından oxunub table-a yı�
 
 ### Önəmli məqamlar :
 
-```change property'də olan dəyəri table-a yazdırarkən əgər dəyər mənfidirsə rəngi qırmızı,
+```
+change property'də olan dəyəri table-a yazdırarkən əgər dəyər mənfidirsə rəngi qırmızı,
 yox əgər müsbtdirsə rəngi yaşıl olmalıdır.(rənglər ixtiyaridir)
 Table'da axtarış etmək kimi bir özəllik əlavə edilməlidir.
 İstifadəçi axtarışı həm name, həm də ticker  özəlliyinə əsasən edə bilməlidir.
