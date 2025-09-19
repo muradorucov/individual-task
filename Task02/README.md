@@ -71,3 +71,42 @@ Mətndə rəqəmlərin olub olmadığını yoxlayan proqram yazın.
 İstifadəçidən mətn daxil etməsini tələb edən və mətndə rəqəmlərin
 olub-olmaması barədə konsola mesaj çıxaran proqram tərtib edin.
 ```
+
+
+### Task-11
+Dəyərin palendrom olub olmadığını yoxlayın:
+"ata" => true
+"level"=> true
+"school"=> false
+
+
+### Task-12
+Ən kiçik üçrəqəmli ədəddən başlayaraq yalnız 5-ə bölünəndə qalıq 2 verən ədədləri konsola çıxarın.
+Ədədlər 500-dən böyük olana qədər davam etsin.
+
+### Task-13
+İstifadəçidən tam ədəd daxil etməsini xahiş edin.
+Bu ədədin rəqəmlərindən ibarət olan bütün ədədlərin cəmini hesablayın.
+Məsələn: 453 daxil edildikdə nəticə 4+5+3=12 olmalıdır.
+
+### Task-14
+İstifadəçidən ədəd daxil etməsini tələb edin və həmin ədədin bütün bölənlərini azalan sıra ilə konsola çıxarın.
+Məsələn: 12 daxil edildikdə 12, 6, 4, 3, 2, 1 göstərilməlidir.
+
+
+### Task-15
+1-dən 30-a qədər yalnız 3-ə və 5-ə eyni anda bölünən ədədləri konsola çıxaran proqram yazın.
+
+### Task-16
+İstifadəçidən bir söz daxil etməsini tələb edin.
+Sözdəki hərfləri biri-birindən tire (-) ilə ayıraraq konsola çıxarın.
+Məsələn: "test" daxil edildikdə "t-e-s-t" çıxmalıdır.
+
+### Task-17
+Mətndə boşluq (" ") simvollarının sayını tapan proqram yazın.
+
+
+### Task-18
+İstifadəçidən iki tam ədəd daxil etməsini xahiş edin.
+Kiçik ədəddən böyük ədədə qədər olan bütün ədədlərin kvadratlarını konsola çıxarın.
+Məsələn: 3 və 6 daxil edildikdə 9, 16, 25, 36 göstərilməlidir.
