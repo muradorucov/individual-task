@@ -114,7 +114,7 @@ Məsələn, `isPalindrome("level")` çağırıldıqda `true`, `isPalindrome("hel
 
 ```
 Verilmiş cümlədəki ən uzun sözü qaytaran `longestWord()` funksiyasını yazın.
-Məsələn, `longestWord("Javascript is a powerful language")` çağırıldıqda `"powerful"` qaytarmalıdır.
+Məsələn, `longestWord("Javascript is a powerful language")` çağırıldıqda `"Javascript "` qaytarmalıdır.
 ```
 
 ## Task-16
